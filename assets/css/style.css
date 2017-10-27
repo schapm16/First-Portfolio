@@ -1,0 +1,177 @@
+/*Generic CSS, Applies To Each Page*/
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #777;
+    
+    background-image: url("../images/subtle_grunge.png");
+}
+
+.content {
+    width: 960px;
+    margin: 0 auto 0 auto;
+}
+
+.clearfix::after {
+    clear: both;
+}
+
+/*end Generic CSS, Applies To Each Page*/
+
+
+/*Applies To Header Of Each Page*/
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+.header-name {
+    background-color: #4aaaa5;
+    
+    color: #fff;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    
+    width: 350px;
+    padding: 20px 0 20px;
+}
+
+header nav a {
+    float: right;
+    
+    margin-top: 25px;
+    padding: 5px 10px;
+    
+    text-decoration: none;
+    color: #777;
+}
+
+header nav a:hover {
+    background-color: #777;
+    color: #fff;
+    transition: 1s;
+}
+
+
+header nav a:nth-of-type(2) {
+    border-right: 2px solid #777;
+    border-left: 2px solid #777;
+}
+/*end CSS For Header Of Each Page/
+
+
+/*Applies To The Main Content Section On Each Page*/
+.main-content {
+    width: 650px;
+    margin-top: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    
+    border: 1px solid #ddd;
+    
+    background-color: #fff;
+}
+
+.main-content-header {
+    color: #4aaaa5;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 32px;
+    font-weight: bold;
+    
+    padding: 20px 0;
+    
+    border-bottom: 2px solid #ddd;
+}
+/*end CSS For The Main Content Section On Each Page*/
+
+
+/*Applies To Connect Sidebar Each Page*/
+.connect {
+    width: 270px;
+    padding: 20px;
+    box-sizing: border-box;
+    
+    border: 1px solid #ddd;
+    
+    background-color: #fff;
+    
+    float: right;
+}
+
+.connect-header {
+    color: #4aaaa5;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 24px;
+    font-weight: bold;
+    
+    padding-bottom: 20px;
+    
+    border-bottom: 2px solid #ddd;
+}
+
+.connect-links {
+    padding: 5px 0;
+    margin: 5px;
+    overflow: auto;
+}
+
+.connect-links a img {
+    width: auto;
+    height: 50px;
+    margin-right: 5px;
+}
+/*end CSS For Connect Sidebar On Each Page*/
+
+/*Applies To The Footer On Each Page*/
+
+footer {
+    width: 100%;
+    height: 50px;
+    border-box: box-sizing;
+    
+    border-top: 5px solid #4aaaa5;
+    
+    position: absolute;
+
+    color: #ddd;
+    font-size: .75em;
+    text-align: center;
+   
+    
+    background-color: #666;
+}
+
+.footer-content {
+    position: absolute;
+    bottom: 0;
+    margin: 5px auto;
+    width: 100%;
+}
+
+.footer-push-content {
+    min-height: calc(99vh - 50px);
+   }
+
+/*end CSS For The Footer On Each Page*/
+
+
+/*Applies To Index.html Only*/
+#picture-aboutme {
+    width: 200px;
+    height: auto;
+    margin-right: 10px;
+    
+    border: 1px solid #ddd;
+    
+    float: left;
+}
+
+#about-me-content {
+    padding: 0;
+    margin: 20px 0 0 0;
+    overflow: auto;
+    
+    line-height: 200%;
+}
+/*end CSS For Index.html*/
